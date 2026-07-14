@@ -42,6 +42,10 @@ export class modalComponent extends LitElement {
     this.open = false;
   }
 
-  render() {}
+  render() {
+    return html`
+      <h1>Ejercicio 5</h1>
+    `;
+  }
 }
 customElements.define("modal-component", modalComponent);
